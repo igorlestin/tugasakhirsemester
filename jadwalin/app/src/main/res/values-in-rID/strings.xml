@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jadwalin</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="reminder_menu_label">Atur Pengingat</string>
+    <string name="calculator_menu_label">Kalkulator energi</string>
+
+    <string name="welcome">"Halo, "</string>
+    <string name="name_hint">Ketik nama</string>
+
+    <string name="intake_label">Energi</string>
+    <string name="edit_profile_title">Ubah Profil</string>
+    <string name="toast_enter_name">Masukkan nama</string>
+    <string name="toast_enter_age">Masukkan umur</string>
+    <string name="toast_not_save">Tidak tersimpan</string>
+    <string name="toast_profile_updated">Profil berhasil diperbarui</string>
+    <string name="profile_not_updated">Profil tidak dapat diperbarui</string>
+
+    <string name="add_activity_title">Tambahkan Aktivitas</string>
+    <string name="toast_insert_amount">Masukkan jumlah</string>
+    <string name="new_activity">Aktivitas baru</string>
+
+    <string name="edit_activity_title">Edit aktivitas</string>
+    <string name="toast_log_updated">Log berhasil diperbarui</string>
+    <string name="log_not_updated">Log tidak dapat diperbarui</string>
+    <string name="toast_log_deleted">Item berhasil dihapus</string>
+    <string name="toast_log_saved">Item baru berhasil ditambahkan</string>
+    <string name="reminder_title">Pengingat</string>
+    <string name="add_reminder_label">Tambahkan Pengingat</string>
+    <string name="hint_msg">Ketik pesan disini</string>
+    <string name="toast_select_dt">Pilih tanggal dan waktu</string>
+    <string name="toast_enter_text">Masukkan pesan</string>
+    <string name="btn_time">Pilih Waktu</string>
+    <string name="btn_date">Pilih Tanggal</string>
+    <string name="done_btn">TAMBAHKAN</string>
+    <string name="backround_text_reminders">Tidak ada data. Klik + untuk menambahkan</string>
+    <string name="toast_deleted_alarm">Alarm berhasil dihapus</string>
+
+    <string name="your_free_time_text">waktu luang kamu dalam sehari</string>
+    <string name="suggest_intake_text">Saran istirahat dalam sehari</string>
+    <string name="calculate_btn">Hitung</string>
+
+    <string name="cube_text">Cube</string>
+    <string name="share_text">Bagikan</string>
+</resources>

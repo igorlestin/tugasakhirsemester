@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main_land"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="id.ac.ui.cs.mobileprogramming.igorlestin.jadwalin.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+
+        <TextView
+            android:id="@+id/date_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Tue, Oct 20, 2020"
+            android:textColor="#434141"
+            android:textSize="10sp" />
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/welcome_textView"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_below="@id/date_textView"-->
+        <!--        android:layout_marginStart="20dp"-->
+        <!--        android:layout_marginTop="10dp"-->
+        <!--        android:text="Hi, Syifa"-->
+        <!--        android:textColor="@color/colorPrimaryDark"-->
+        <!--        android:textSize="24sp" />-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_profile"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="0dp"
+            tools:listitem="@layout/profile_layout" />
+
+        <TextView
+            android:id="@+id/intake_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_profile"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/intake_label"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:id="@+id/progress_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/progress_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:text="1200"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/goal_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="40dp"
+                android:text="/ 1200"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="112dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/progress_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:labelFor="@id/intake_textView"
+            android:padding="5dp"
+            android:progress="1000"
+            android:progressDrawable="@drawable/circle"
+            android:progressTint="@color/colorPrimary"
+            android:rotation="-90"
+            android:secondaryProgressTint="#009688"
+            tools:visibility="visible" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_water_consumption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="-32dp"
+        tools:listitem="@layout/log_item" />
+</LinearLayout>
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/edit_button"-->
+<!--        style="@android:style/Widget.Holo.ImageButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/intake_textView"-->
+<!--        android:layout_marginLeft="350px"-->
+<!--        android:layout_marginTop="33dp"-->
+<!--        android:layout_toEndOf="@id/intake_textView"-->
+<!--        android:background="#00FFFFFF"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        app:srcCompat="@android:drawable/ic_menu_edit" />-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floatingActionButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="top|end"-->
+<!--        android:clickable="true"-->
+<!--        app:srcCompat="@android:drawable/ic_menu_delete" />-->
+
+

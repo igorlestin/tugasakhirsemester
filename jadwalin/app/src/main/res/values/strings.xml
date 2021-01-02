@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="reminder_menu_label">Set Reminders</string>
+    <string name="calculator_menu_label">Energy Calculator</string>
+
+    <string name="welcome">"Hi,  "</string>
+    <string name="name_hint"> Name </string>
+    <string name="intake_label">Intake</string>
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="toast_enter_name">Enter name</string>
+    <string name="toast_enter_age">Enter age</string>
+    <string name="toast_not_save">Not save</string>
+    <string name="toast_profile_updated">Profile updated</string>
+    <string name="profile_not_updated">Profile can\'t be updated</string>
+
+    <string name="add_activity_title">Add Activity</string>
+    <string name="toast_insert_amount">Insert amount</string>
+    <string name="new_activity">New Activity</string>
+
+    <string name="edit_activity_title">Edit Activity</string>
+    <string name="toast_log_updated">Log updated</string>
+    <string name="log_not_updated">Log can\'t be updated</string>
+    <string name="toast_log_deleted">Item deleted</string>
+    <string name="toast_log_saved">New item saved</string>
+
+    <string name="reminder_title">Reminders</string>
+
+    <string name="add_reminder_label">Add Reminders</string>
+    <string name="hint_msg">Enter Message</string>
+    <string name="toast_select_dt">Please select date and time</string>
+    <string name="toast_enter_text">Please Enter the text</string>
+    <string name="btn_time">Select Time</string>
+    <string name="btn_date">Select Date</string>
+    <string name="done_btn">ADD</string>
+    <string name="backround_text_reminders">No Reminders Set\nClick + to add the reminders</string>
+    <string name="toast_deleted_alarm">Alarm deleted</string>
+
+    <string name="your_free_time_text">Your free time is (in hour)</string>
+    <string name="suggest_intake_text">Suggest daily sleep routine</string>
+    <string name="calculate_btn">Calculate</string>
+
+    <string name="cube_text">Cube</string>
+    <string name="share_text">Share</string>
+</resources>

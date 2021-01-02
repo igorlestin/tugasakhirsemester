@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.ac.ui.cs.mobileprogramming.igorlestin.jadwalin.MainActivity">
+    <item
+        android:id="@+id/calculator_menu"
+        android:title="@string/calculator_menu_label"
+        />
+    <item
+        android:id="@+id/reminder_menu"
+        android:title="@string/reminder_menu_label"
+        />
+    <item
+        android:id="@+id/share_menu"
+        android:title="@string/share_text"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>

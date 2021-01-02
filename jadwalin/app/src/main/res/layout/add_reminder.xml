@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.ac.ui.cs.mobileprogramming.igorlestin.jadwalin.CreateEvent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/add_reminder_label"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editext_message"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hint_msg"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_time"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/btn_date"
+        android:textAllCaps="false"
+
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_date"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="25dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:id="@+id/btn_done"
+        android:textColor="#FFFFFF"
+        android:text="@string/done_btn"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

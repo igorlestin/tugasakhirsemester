@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    layout_height="wrap_content" android:layout_width="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/parent2_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:orientation="horizontal"
+            android:padding="1dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/welcome"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="275dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="mate"
+                android:textAlignment="textStart"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/edit_profile_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_marginEnd="10sp"
+                android:background="#00FFFFFF"
+                android:textColor="@color/colorPrimary"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

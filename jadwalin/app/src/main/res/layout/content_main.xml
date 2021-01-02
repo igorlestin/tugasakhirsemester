@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.ac.ui.cs.mobileprogramming.igorlestin.jadwalin.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/date_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Tue, Oct 20, 2020"
+        android:textColor="#434141"
+        android:textSize="10sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="0dp"
+        tools:listitem="@layout/profile_layout" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_water_consumption"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:layout_below="@+id/recycler_view_profile"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="-32dp"
+        tools:listitem="@layout/log_item" />
+
+
+</RelativeLayout>
